@@ -12,8 +12,22 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
-Add code Here
+```python
+def find_modulo(a, b):
+    return a % b
+
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+if b != 0:
+    result = find_modulo(a, b)
+    print(f"The result of {a} % {b} is: {result}")
+else:
+    print("Error: Division by zero is not allowed.")
+```
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/6122ff0c-1e30-4749-81ba-fdb47845ce2f)
+
 ## Result
+Hence the program is executed successfully.
